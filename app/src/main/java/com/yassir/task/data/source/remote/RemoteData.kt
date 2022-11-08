@@ -9,6 +9,6 @@ import java.util.*
  * To make an interaction between [PhotoRepositoryImp] & [GetPhotosUseCase]
  * */
 interface RemoteData {
-    suspend fun getMovies(): Resource<Movies>
+    suspend fun getMovies(page: Int): Resource<Movies>
     suspend fun getMovieDetail(movie_id: Int): Resource<MovieDetail>
 }

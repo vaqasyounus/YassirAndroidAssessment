@@ -12,5 +12,8 @@ object Constants {
     private const val API_KEY = BuildConfig.API_KEY
     const val END_POINT_MOVIES = "discover/movie?api_key=$API_KEY"
     const val END_POINT_MOVIE_DETAIL = "movie/{movie_id}}?api_key=$API_KEY"
+    const val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/original"
+    const val MOVIE_ID = "id"
+
 
 }

@@ -4,7 +4,7 @@ package com.yassir.task.data.dto.movie_list
 import com.google.gson.annotations.SerializedName
 
 
-data class Results(
+data class Movie(
 
     @SerializedName("adult") var adult: Boolean? = null,
 
